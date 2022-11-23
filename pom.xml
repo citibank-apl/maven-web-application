@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.90.250.17:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.17.148:9000/</sonar.host.url>
                 <sonar.login>squ_e0f7269f5c72d4e3cc4572158012ffa127e40b6a</sonar.login>
 	
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Padmaja Reddy Releases Nexus Repository</name>
-	      <url>http://54.237.199.227:4014/padmajareddy/repository/Citibank-release/</url>
+	      <url>http://172.31.23.37:4014/padmajareddy/repository/Citibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Padmaja Reddy Snapshot Nexus Repository </name>
-	      <url>http://54.237.199.227:4014/padmajareddy/repository/Citibank-snapshot/</url>
+	      <url>http://172.31.23.37:4014/padmajareddy/repository/Citibank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
